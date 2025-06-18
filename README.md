@@ -59,12 +59,13 @@ Kuruvi runs best when:
 - Surrounded by passionate or weird people
 
 Basic usage pattern:
-	from kuruvi import get_shit_done
 
+	from kuruvi import get_shit_done
 	while motivation > 0:
     	get_shit_done(task)
 
 Advanced mode:
+
 	try:
     	fall_in_love()
 	except EmotionalDamage as e:
